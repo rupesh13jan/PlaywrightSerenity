@@ -1,0 +1,27 @@
+{
+  "name": "my-serenity-project",
+  "version": "1.0.0",
+  "description": "An example Serenity BDD project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --format @serenity-js/cucumber features/*.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serenity-js/cucumber": "^3.3.0",
+    "@serenity-js/core": "^3.2.0",
+    "cucumber": "^7.3.1",
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/my-serenity-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/my-serenity-project/issues"
+  },
+  "homepage": "https://github.com/your-username/my-serenity-project#readme"
+}
